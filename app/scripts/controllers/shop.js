@@ -6,7 +6,7 @@ var shopApp = angular.module('crudCartApp')
 				$location.path('/new');
 			};
 			$scope.createThing = function(thing) {
-				PostShop.createNewThing(thing);
+				ShopService.createThing(thing);
 				$location.path('/cart');
 			};
 	}]);

@@ -6,7 +6,7 @@ angular.module('crudCartApp')
 					method: 'GET',
 					isArray: true
 				},
-				createNewItem: {
+				createThing: {
 					method: 'POST'
 				}
 			});

@@ -15,7 +15,7 @@ angular
       })
       .when('/new', {
         templateUrl: 'views/create.html',
-        controller: 'MainCtrl'
+        controller: 'BaubCtrl'
       })
       .when('/cart', {
         templateUrl: 'views/cart.html',

@@ -10,8 +10,20 @@ angular
   .config(function ($routeProvider) {
     $routeProvider
       .when('/', {
-        templateUrl: 'views/main.html',
+        templateUrl: 'views/admin.html',
         controller: 'MainCtrl'
+      })
+      .when('/cart', {
+        templateUrl: 'views/cart.html',
+        controller: 'MainCtrl'
+      })
+      .when('/details', {
+        templateUrl: 'views/details.html',
+        controller: 'BaubCtrl'
+      })
+      .when('/:id/edit', {
+        templateUrl: 'views/edit.html',
+        controller: 'BaubCtrl'
       })
       .otherwise({
         redirectTo: '/'

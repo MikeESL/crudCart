@@ -1,0 +1,17 @@
+<div><p>this page is here</p></div>
+<div class="forSale" ng-repeat="things in awesomeThings">
+    
+      <ul ng-hide="things.soldOut">
+        <li><a href ng-click="tab 1"><h4>{{things.name | uppercase}}</h4></a></li>  
+
+          <ul>
+            <li><h5>{{things.description}}</h5></li>
+            <li><a href="#"><img ng-src="{{things.thumbnail}}"></img></a> (click thumbnail to enlarge)</li>
+            <li><h5>{{things.price | currency}}</h5></li>
+            <button ng-click="">Add To Cart</button>
+            
+          </ul> 
+
+      </ul>
+
+  </div>

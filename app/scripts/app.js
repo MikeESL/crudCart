@@ -19,7 +19,7 @@ angular
       })
       .when('/cart', {
         templateUrl: 'views/cart.html',
-        controller: 'MainCtrl'
+        controller: 'BaubCtrl'
       })
       .when('/details', {
         templateUrl: 'views/details.html',

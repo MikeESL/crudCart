@@ -13,6 +13,10 @@ angular
         templateUrl: 'views/admin.html',
         controller: 'MainCtrl'
       })
+      .when('/new', {
+        templateUrl: 'views/create.html',
+        controller: 'MainCtrl'
+      })
       .when('/cart', {
         templateUrl: 'views/cart.html',
         controller: 'MainCtrl'

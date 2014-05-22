@@ -1,5 +1,5 @@
 var shopApp = angular.module('crudCartApp')
-	.controller ('BaubCtrl', ['$scope', '$routeParams', '$location', 'PostShop', function($scope, $routeParams, $location, PostShop){
+	.controller ('BaubCtrl', ['$scope', '$routeParams', '$location', 'ShopService', function($scope, $routeParams, $location, ShopService){
 
 			$scope.posts = ShopService.getAllThings();
 			$scope.addPost = function(){
